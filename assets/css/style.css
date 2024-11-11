@@ -29354,5 +29354,18 @@ body.servi-ce-details .rts-footer-two-area {
   width: 400px;  /* Adjust to the desired size */
   height: auto;  /* Maintain aspect ratio */
 }
+/* Lighter Jungle Green color for the title */
+.title.rts_hero__title {
+  color: #66BB6A; /* Light Jungle Green */
+  text-shadow: none; /* No glow effect */
+}
+
+/* Lighter Green effect for the underline (border-bottom-1) class */
+.border-bottom-1 {
+  color: #66BB6A; /* Light Jungle Green */
+  text-decoration: underline;
+  text-decoration-color: #66BB6A; /* Underline in Light Green */
+}
+
 
 /*# sourceMappingURL=../maps/style.css.map */
