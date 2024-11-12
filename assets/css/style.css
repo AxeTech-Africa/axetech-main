@@ -22726,6 +22726,14 @@ main {
 }
 .single-approach-area-start.three::before {
   background-image: url(../images/banner/25.jpg);
+  
+}
+.single-approach-area-start.four::after {
+  content: "04" !important;
+}
+.single-approach-area-start.four::before {
+  background-image: url(../images/banner/25.jpg);
+
 }
 .single-approach-area-start::before {
   background-image: url(../images/banner/03.png);
