@@ -29359,6 +29359,27 @@ body.servi-ce-details .rts-footer-two-area {
   color: #66BB6A; /* Light Jungle Green */
   text-shadow: none; /* No glow effect */
 }
+.bg-text {
+  color: #66BB6A;  /* Light Jungle Green */
+  text-shadow: none;  /* No glow effect */
+}
+
+/* Apply the green color to breadcrumb text */
+.rts-breadcrumb-area .works,
+.rts-breadcrumb-area .bg-text {
+    color: #66BB6A; /* Light Jungle Green */
+    text-shadow: none; /* No glow effect */
+}
+
+/* Optionally, if you want the background to have a green tint */
+.rts-breadcrumb-area {
+    background-color: rgba(102, 187, 106, 0.2); /* Light Jungle Green with transparency */
+}
+
+/* If you want the breadcrumb text inside the inner div to also be green */
+.rts-breadcrumb-area .baread-crumb-main-wrapper .inner {
+    color: #66BB6A; /* Green color */
+}
 
 /* Lighter Green effect for the underline (border-bottom-1) class */
 .border-bottom-1 {
