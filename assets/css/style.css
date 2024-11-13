@@ -22783,7 +22783,7 @@ main {
 .single-approach-area-start::after {
   position: absolute;
   content: "01";
-  font-size: 80px;
+  font-size: 50px;
   right: 20px;
   top: 30px;
   color: rgba(0, 0, 0, 0);
