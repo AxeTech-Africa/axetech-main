@@ -23009,6 +23009,14 @@ main {
     display: none;
   }
 }
+.language-check {
+  margin-right: 30px;  /* Adjust this value to get the desired space */
+}
+
+.rts-social-area-one {
+  /* If necessary, you can adjust this too */
+  margin-left: 0;
+}
 
 .rts-social-area-one ul {
   padding: 0;
@@ -23027,8 +23035,8 @@ main {
   margin: 0;
 }
 .rts-social-area-one ul li a {
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height:25px;
   border-radius: 50%;
   background: #1B1B1B;
   display: flex;
