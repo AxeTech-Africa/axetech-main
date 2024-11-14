@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-style-mode" content="1">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/AxeTech Icon 1 White.png">
     <title>AxeTech-Africa</title>
     <link rel="stylesheet" href="assets/css/plugins/fontawesome-6.css">
     <link rel="stylesheet" href="assets/css/plugins/swiper.min.css">
@@ -320,47 +320,43 @@
                                 <span>Get in touch!</span>
                             </h2>
                         </div>
-                        <form class="appoinment-h2 rts-slide-up-gsap" action="#">
+                        <form class="appoinment-h2 rts-slide-up-gsap" action="send_email.php" method="POST">
                             <div class="input-line">
                                 <div class="input-half">
                                     <label for="name">Your Name*</label>
-                                    <input id="name" type="text" placeholder="Jane Doe..." required>
+                                    <input id="name" name="name" type="text" placeholder="Jane Doe..." required>
                                 </div>
                                 <div class="input-half">
                                     <label for="email">Your Email*</label>
-                                    <input id="email" type="text" placeholder="example@gmail.com" required>
+                                    <input id="email" name="email" type="email" placeholder="example@gmail.com" required>
                                 </div>
                             </div>
                             <div class="input-line mt--40">
                                 <div class="input-half">
-                                    <label for="name">What you are interested*</label>
-                                    <select class="form-select" aria-label="Default select example">
-                                        <option selected>Tech</option>
+                                    <label for="interest">What you are interested in*</label>
+                                    <select id="interest" name="interest" class="form-select" aria-label="Default select example" required>
+                                        <option selected value="Tech">Tech</option>
                                         <option value="1">Digital Marketing & Advertising</option>
                                         <option value="2">Branding & Design</option>
                                         <option value="3">Network Solutions</option>
                                         <option value="4">Wi-Fi solutions</option>
                                         <option value="5">Cybersecurity</option>
-                                        <option value="6">Home & Business security </option>
+                                        <option value="6">Home & Business security</option>
                                         <option value="7">IT Consulting</option>
-
-
-
-
                                     </select>
                                 </div>
                                 <div class="input-half">
-                                    <label for="email">Project Budget*</label>
-                                    <input id="email" type="text" placeholder="amount" required>
-
+                                    <label for="budget">Project Budget*</label>
+                                    <input id="budget" name="budget" type="text" placeholder="amount" required>
                                 </div>
                             </div>
                             <div class="text-area mt--40">
                                 <label for="message">Message*</label>
-                                <textarea id="message" cols="30" rows="10" placeholder="Tell us about your project"></textarea>
+                                <textarea id="message" name="message" cols="30" rows="10" placeholder="Tell us about your project" required></textarea>
                             </div>
-                            <button class="submit-pd">send</button>
+                            <button class="submit-pd" type="submit">Send</button>
                         </form>
+                        
                     </div>
                     <!-- appoinment area two end -->
                 </div>
